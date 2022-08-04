@@ -1,0 +1,14 @@
+/*=============================================
+=            CSS Reset            =
+=============================================*/
+@import "node_modules/normalize-scss/sass/normalize/import-now";
+
+/*=====  End of CSS Reset  ======*/
+
+/*=============================================
+=            CSS BASE            =
+=============================================*/
+@import "./base/reset";
+@import "./base/root";
+
+/*=====  End of Reset  ======*/

@@ -1,0 +1,24 @@
+/*=============================================
+=            Global text Colors             =
+=============================================*/
+
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-bg-color: var(--dse-bg-color, $white) !default;
+
+/*=============================================
+=            Buttons            =
+=============================================*/
+$button-primary-color: var(--dse-btn-primary-color, $white) !default;
+$button-primary-bg-color: var(--dse-btn-primary-bg, $green) !default;
+$button-prymary-bg-hover: var(--dse-btn-primary-hover, $green-light) !default;
+
+/*=============================================
+=            Forms            =
+=============================================*/
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+$form-error-border: var(--dse-form-error-border, $red-light) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
+
+$form: "123"

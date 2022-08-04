@@ -1,0 +1,32 @@
+{
+  "name": "@dse.e/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  },
+  "scripts": {
+    "lint": "stylelint ./**/*.scss",
+    "lint:fix": "yarn lint --fix"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "postcss": "8",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "list-staged"
+    }
+  },
+  "list-staged": {
+    "*.scss": "yarn lint:fix"
+  }
+}

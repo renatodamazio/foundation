@@ -1,0 +1,56 @@
+/*=============================================
+=            Body text sizes            =
+=============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-sm);
+$body-font-weight: var(--dse-body-font-weight, $fw-normal);
+
+/*=============================================
+=            Heading text sizes            =
+=============================================*/
+
+$h1-font-size: var(--dse-body-font-size, $h-1) !default;
+$h2-font-size: var(--dse-body-font-size, $h-2) !default;
+$h3-font-size: var(--dse-body-font-size, $h-3) !default;
+$h4-font-size: var(--dse-body-font-size, $h-4) !default;
+$h5-font-size: var(--dse-body-font-size, $h-5) !default;
+$h6-font-size: var(--dse-body-font-size, $h-6) !default;
+
+/*=============================================
+=            Head font weights            =
+=============================================*/
+
+$h1-font-weight: var(--dse-body-font-weight, $fw-light) !default;
+$h2-font-weight: var(--dse-body-font-weight, $fw-light) !default;
+$h3-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+$h4-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+$h5-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+$h6-font-weight: var(--dse-body-font-weight, $fw-medium) !default;
+
+/*=============================================
+=            Head line heights            =
+=============================================*/
+$h1-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h1
+) !default;
+$h2-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h2
+) !default;
+$h3-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h3
+) !default;
+$h4-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h4
+) !default;
+$h5-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h5
+) !default;
+$h6-font-line-height: var(
+  --dse-body-font-line-height,
+  $line-height-h6
+) !default;
