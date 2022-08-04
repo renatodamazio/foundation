@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "stylelint ./**/*.scss",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "husky": "^8.0.1",
